@@ -1,0 +1,38 @@
+name = Machine Sentry Theme
+description = Machine Sentry sub-theme
+core = 7.x
+base theme = aesbs337
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[navigation_col] = 'Navigation Collapsible'
+regions[preface]		= 'Preface'
+regions[wavelower]      = 'Wavelower'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[suffix]			= 'Suffix'
+regions[postscript_fir] = 'Postscript First'
+regions[postscript_mid]	= 'Postscript Middle'
+regions[postscript_last]= 'Postscript Last'
+regions[footer]         = 'Footer'
+regions[footer_lower] 	= 'Footer Lower'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/msfonts-style.css
+stylesheets[all][] = css/msregions-style.css
+stylesheets[all][] = css/msblock-style.css
+stylesheets[all][] = css/msfield-style.css
