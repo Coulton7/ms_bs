@@ -1,0 +1,67 @@
+blockquote {
+  background-color: #f9f9f9;
+}
+
+.slide-title {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+  color: #dd1e25;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #9a151a;
+}
+
+.navbar-collapse li a {
+  text-align: center;
+}
+
+.pagination>li>a, .pagination>li>span, .pagination>li>a:hover {
+  color: #002a5b;
+}
+
+.pagination>.active>span, .pagination>.active>span:hover {
+  background-color: #002a5b;
+  border-color: #002a5b;
+}
+
+.ca-blue-block h2 {
+  color: white !important;
+  background-color: #337ab7;
+  text-align: center;
+}
+
+.view-analysis-enquiry .view-header p {
+  width: 50%;
+  padding: 20px;
+}
+
+.red-bullet {
+  padding-left: 0;
+}
+
+.main-footer p {
+  color: white;
+}
+
+.main-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer a:hover {
+  color: #E5E5E7;
+  text-decoration: none;
+}
+
+.main-footer a:active {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .ms-grey-block p {
+    width: 100%;
+  }
+}
