@@ -431,22 +431,8 @@ input.form-control {
     width: 100%;
   }
 
-  .laptop {
-    display: none;
-  }
-
-  .ms-logo {
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 5%;
-  }
-
   .top-right {
     text-align: center;
-  }
-
-  .avt-socialmedia {
-    float: none;
   }
 
   input.form-control {
@@ -469,10 +455,6 @@ input.form-control {
     padding-left: 7.5em;
   }
 
-  .laptop {
-    top: -7em;
-  }
-
   .slide-img-fill {
     height: 100%;
   }
@@ -493,10 +475,6 @@ input.form-control {
     padding-left: 15em;
   }
 
-  .laptop {
-    top: -9em;
-  }
-
   .slide-img-fill {
     height: 100%;
   }
@@ -512,7 +490,7 @@ input.form-control {
   }
 }
 
-@@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .contact-col-left {
     padding-left: 0;
     margin-bottom: 15px;
