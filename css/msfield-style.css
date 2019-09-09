@@ -265,10 +265,6 @@ a.slider-button:hover {
   color: #dd1e25;
 }
 
-.multipage-pane-title, .multipage-link-previous {
-  display: none;
-}
-
 .widget-flex {
   display: flex;
   flex-direction: column;
@@ -280,14 +276,6 @@ a.slider-button:hover {
   flex-direction: column;
   height: 100%;
   justify-content: center;
-}
-
-.view-related-media table {
-  margin: 0 auto;
-}
-
-.view-related-media .field-thumbnail {
-  margin: 10px 35px;
 }
 
 .field-download .file-icon {
@@ -317,33 +305,12 @@ a.slider-button:hover {
   margin: 0 auto;
 }
 
-.node-article .field-image {
-  margin-bottom: 1.5em;
-}
-
 .contact-us-img {
   max-width: 100%;
 }
 
-.contacts .well {
-  border: 1px dashed #B5B6B9;
-}
-
 .locations-row {
   padding-bottom: 10px;
-}
-
-.ms-logo {
-  width: 30%;
-  margin-top: 20px;
-  margin-left: 10%;
-  margin-bottom: 1%;
-}
-
-.laptop {
-  position: absolute;
-  top: -7em;
-  right: 9%;
 }
 
 .field-pdf {
@@ -376,35 +343,10 @@ a.slider-button:hover {
   display: inline;
 }
 
-.secondary {
-  background-color: #DD1E25;
-}
-
-ul.menu.nav.navbar-nav.secondary a {
-  color: #E8E8E8;
-  transition: all 0.2s;
-}
-
-ul.menu.nav.navbar-nav.secondary:hover a {
-  color: white;
-}
-
-textarea.form-control, input.form-control {
-  background-color: #fafafa;
-}
-
 .section-shadow {
   margin-top: -68px;
   max-width: 100%;
   height: auto;
-}
-
-.top-line {
-  margin-top: 0;
-}
-
-a#black-button-footer.btn.btn-default.btn-lg:focus {
-  background-color: black;
 }
 
 .input-group .form-control:first-child {
