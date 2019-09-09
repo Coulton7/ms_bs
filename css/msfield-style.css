@@ -501,28 +501,3 @@ input.form-control {
     margin-bottom: 15px;
   }
 }
-
-/*Apple devices media queries*/
-@media screen and (device-aspect-ratio: 40/71) {
-  .media--background {
-    height: 300px;
-  }
-}
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-  .media--background {
-    height: 340px;
-  }
-}
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
-  .media--background {
-    height: 220px;
-  }
-}
-
-@media screen and (device-aspect-ratio: 40/71) {
-  .media--background {
-    height: 300px;
-  }
-}
