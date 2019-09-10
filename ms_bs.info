@@ -8,6 +8,7 @@ base theme = aesbs337
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
+regions[advertising_board] = 'Advertising Board'
 regions[navigation]     = 'Navigation'
 regions[navigation_col] = 'Navigation Collapsible'
 regions[preface]		= 'Preface'

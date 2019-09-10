@@ -82,6 +82,13 @@
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
+		<?php if ($page['advertising_board']): ?>
+			<div class="row">
+				<div class="col-sm-12 no-padding">
+					<?php print render($page['advertising_board']); ?>
+				</div>
+			</div>
+		<?endif; ?>
 		<div class="row waveupper row-eq-height">
 			<div class="col-sm-2 col-xs-1 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
@@ -94,57 +101,56 @@
 
 
 		<div class="col-sm-10 col-xs-11 fullscreen">
-			<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
 
-				<div class="<?php print $container_class; ?>">
-					<div class="navbar-header">
-
-						<?php if (!empty($site_name)): ?>
-							<a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-						<?php endif; ?>
-
-						<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-								<span class="sr-only"><?php print t('Toggle navigation'); ?></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						<?php endif; ?>
-					</div>
-				</div>
-
-				<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-
-					<div class="navbar-collapse collapse">
-						<div class="container-fluid navbar-container">
-
-							<nav role="navigation">
-								<?php if (!empty($primary_nav)): ?>
-									<?php print render($primary_nav); ?>
-								<?php endif; ?>
-
-								<?php if (!empty($page['navigation'])): ?>
-									<?php print render($page['navigation']); ?>
-								<?php endif; ?>
-							</nav>
-						</div>
-					</div>
-					<div class="section-shadow-menu"></div>
-				<?php endif; ?>
-
-			</header>
 		</div>
 	</div>
+	<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+
+		<div class="<?php print $container_class; ?>">
+			<div class="navbar-header">
+
+				<?php if (!empty($site_name)): ?>
+					<a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+				<?php endif; ?>
+
+				<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only"><?php print t('Toggle navigation'); ?></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<?php endif; ?>
+			</div>
+		</div>
+
+		<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+
+			<div class="navbar-collapse collapse">
+				<div class="container-fluid navbar-container">
+
+					<nav role="navigation">
+						<?php if (!empty($primary_nav)): ?>
+							<?php print render($primary_nav); ?>
+						<?php endif; ?>
+
+						<?php if (!empty($page['navigation'])): ?>
+							<?php print render($page['navigation']); ?>
+						<?php endif; ?>
+					</nav>
+				</div>
+			</div>
+			<div class="section-shadow-menu"></div>
+		<?php endif; ?>
+
+	</header>
 
 	<?php if ($page['navigation_col']): ?>
-		<div class="navigation_col">
-			<div class="action-menu text-center">
-				<div class="col-sm-0 col-xs-0 fullscreen">
-				</div>
-				<div class="col-sm-12 col-sm-offset-2 col-xs-12 no-padding">
-				<?php print render($page['navigation_col']);?>
+		<div class="navigation_col row">
+			<div class="col-sm-0 col-xs-0 fullscreen">
 			</div>
+			<div class="col-sm-12 col-xs-12 no-padding">
+				<?php print render($page['navigation_col']);?>
 			</div>
 		</div>
 	<?php endif; ?>

@@ -79,6 +79,13 @@
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
+		<?php if ($page['advertising_board']): ?>
+			<div class="row">
+				<div class="col-sm-12 no-padding">
+					<?php print render($page['advertising_board']); ?>
+				</div>
+			</div>
+		<?endif; ?>
 		<div class="row waveupper row-eq-height">
 			<div class="col-sm-2 col-xs-1 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
@@ -94,25 +101,6 @@
 
 		</div>
 	</div>
-
-	<?php if ($page['navigation_col']): ?>
-		<div class="navigation_col">
-			<div class="action-menu text-center">
-				<div class="col-sm-0 col-xs-0 fullscreen">
-				</div>
-				<div class="col-sm-12 col-sm-offset-2 col-xs-12 no-padding">
-				<?php print render($page['navigation_col']);?>
-			</div>
-			</div>
-		</div>
-	<?php endif; ?>
-
-	<?php if ($page['preface']): ?>
-	<div class="preface">
-			<?php print render($page['preface']);?>
-	</div>
-	<?php endif; ?>
-
 	<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
 
 		<div class="<?php print $container_class; ?>">
@@ -153,6 +141,22 @@
 		<?php endif; ?>
 
 	</header>
+
+	<?php if ($page['navigation_col']): ?>
+		<div class="navigation_col row">
+			<div class="col-sm-0 col-xs-0 fullscreen">
+			</div>
+			<div class="col-sm-12 col-xs-12 no-padding">
+				<?php print render($page['navigation_col']);?>
+			</div>
+		</div>
+	<?php endif; ?>
+
+	<?php if ($page['preface']): ?>
+	<div class="preface">
+			<?php print render($page['preface']);?>
+	</div>
+	<?php endif; ?>
 
 	<?php if ($page['wavelower']): ?>
 	<div class="row wavelower row-eq-height">
