@@ -15,6 +15,7 @@ function ms_bs_preprocess_page(&$vars) {
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/logoscroll.js');
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/fade-text.js');
   drupal_add_js(drupal_get_path('theme', 'ms_bs').'/js/animatedcollapse.js');
+  drupal_get_path(drupal_add_js('theme', 'ms_bs').'/js/sticky-scroll.js')
 }
 
 function ms_bs_theme(){
