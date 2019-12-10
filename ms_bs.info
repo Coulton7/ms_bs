@@ -1,7 +1,7 @@
 name = Machine Sentry Theme
 description = Machine Sentry sub-theme
 core = 7.x
-base theme = aesbs337
+base theme = avt_bs
 
 
 ;;;;;;;;;;;;;;;;;;;;;
