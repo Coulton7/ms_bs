@@ -59,24 +59,6 @@ background-size: cover;
 }
 
 /*Positioning of the forms*/
-.view-display-id-block_1 .ca-blue-block {
-  top: -410px;
-}
-
-.view-display-id-block_6 .ca-blue-block,
-.view-display-id-block_3 .ca-blue-block {
-  top: -375px;
-}
-
-.view-display-id-block_7 .ca-blue-block,
-.view-display-id-block_9 .ca-blue-block,
-.view-display-id-block_10 .ca-blue-block {
-  top: -360px;
-}
-
-.view-display-id-block_8 .ca-blue-block {
-  top: -350px;
-}
 
 .ca-blue-block .form-control {
   box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.3);
@@ -156,7 +138,7 @@ background-size: cover;
     right: 0;
   }
 
-  .view-analysis-enquiry .view-header p, .call-to-action-table {
+ .call-to-action-table {
     width: 100%;
   }
 }
