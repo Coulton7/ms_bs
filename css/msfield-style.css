@@ -62,6 +62,11 @@ a.btn-default {
   background-color: transparent;
 }
 
+.seperator-normal{
+  height: 3px;
+  background-color: #002a5b;
+}
+
 .navbar-default .navbar-nav.secondary>.active>a {
   background-color: #DD1E25;
 }
