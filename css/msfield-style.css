@@ -367,6 +367,11 @@ input.form-control {
   background-color: #002a5b;
 }
 
+.demo-button{
+  border-radius: 6px;
+  padding-left: 1em 1.5em 1em 1.5em;
+}
+
 .termsconditions {
   float: right;
 }
@@ -388,6 +393,11 @@ input.form-control {
 @media screen and (max-width: 767px) {
   .home-tab-image-wrap {
     display: none;
+  }
+
+  .demo-button{
+    font-size: 22px;
+    line-height:36px;
   }
 
   nav .menu .last.leaf {
@@ -457,6 +467,11 @@ input.form-control {
     height: 100%;
   }
 
+  .demo-button{
+    font-size: 23px;
+    line-height:37px;
+  }
+
   .contact-col-left {
     padding-left: 0;
     padding-right: 0;
@@ -477,6 +492,11 @@ input.form-control {
     height: 100%;
   }
 
+  .demo-button{
+    font-size: 24px;
+    line-height:39px;
+  }
+
   .contact-col-left {
     padding-left: 0;
     padding-right: 0;
@@ -492,6 +512,11 @@ input.form-control {
   .contact-col-left {
     padding-left: 0;
     margin-bottom: 15px;
+  }
+
+  .demo-button{
+    font-size: 25px;
+    line-height:41px;
   }
 
   .contact-col-right {
