@@ -56,6 +56,9 @@ a.btn-default {
 
 .btn-default:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  color: #e5e5e7;
+  border-radius: 1px solid #e5e5e7;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-nav.secondary>.active>a {
