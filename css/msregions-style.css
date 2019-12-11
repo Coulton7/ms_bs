@@ -58,7 +58,7 @@ a.logo.navbar-btn.pull-left{
 }
 
 @media (max-width: 768px) {
-    {
+  aside  {
     margin-top: 25px !important;
   }
 }
