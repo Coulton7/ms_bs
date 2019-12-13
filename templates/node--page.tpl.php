@@ -94,7 +94,7 @@
 
   <?php print render($content['field_short_description']);?>
 
-  <div class="<?php if (empty($content['field_image'])) { print 'col-sm-12 fullscreen'; } else { print 'col-sm-12'; } ?>">
+  <div class="<?php if (empty($content['field_image'])) { print 'col-sm-12 fullscreen'; } else { print 'col-sm-7'; } ?>">
 
   <?php
     // Hide comments, tags, and links now so that we can render them later.
@@ -109,7 +109,7 @@
   ?>
 </div>
 
-  <div class="<?php if(!empty($content['field_image'])){ print 'col-sm-5'}?>">
+  <div class="<?php if(!empty($content['field_image'])){ print 'col-sm-5'} else {print 'col-sm-0'}?>">
     <?php print render($content['field_image']);?>
   </div>
 
