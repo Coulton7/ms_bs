@@ -109,7 +109,7 @@
   ?>
   </div>
 
-  <div class="<?php if(empty($content['field_image'])){ print 'col-sm-5'} else {print 'col-sm-5'}?>">
+  <div class="<?php if(empty($content['field_image'])){ print 'col-sm-5'} else {print 'col-sm-0'}?>">
     <?php print render($content['field_image']);?>
   </div>
 
