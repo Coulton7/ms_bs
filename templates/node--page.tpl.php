@@ -93,24 +93,23 @@
   <?php endif; ?>
 
   <?php print render($content['field_short_description']);?>
-
-  <div class="<?php if (empty($content['field_image'])) { print 'col-sm-12'; } else { print 'col-sm-7'; } ?>">
-
-  <?php
-    // Hide comments, tags, and links now so that we can render them later.
-    hide($content['comments']);
-    hide($content['links']);
-    hide($content['field_tags']);
-    hide($content['field_image']);
-    hide($content['field_short_description']);
-    hide($content['field_header_title']);
-    hide($content['field_header_caption']);
-    print render($content);
-  ?>
-  </div>
-
-  <div class="<?php if(empty($content['field_image'])){ print 'col-sm-5'} else {print 'col-sm-0'}?>">
-    <?php print render($content['field_image']);?>
+  <div class="row">
+    <div class="<?php if (empty($content['field_image'])) { print 'col-sm-12'; } else { print 'col-sm-7'; } ?>">
+      <?php
+        // Hide comments, tags, and links now so that we can render them later.
+        hide($content['comments']);
+        hide($content['links']);
+        hide($content['field_tags']);
+        hide($content['field_image']);
+        hide($content['field_short_description']);
+        hide($content['field_header_title']);
+        hide($content['field_header_caption']);
+        print render($content);
+        ?>
+    </div>
+    <div class="<?php if(empty($content['field_image'])){ print 'col-sm-5'} else {print 'col-sm-0'}?>">
+      <?php print render($content['field_image']);?>
+    </div>
   </div>
 
   <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
