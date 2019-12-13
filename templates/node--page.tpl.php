@@ -107,7 +107,7 @@
     hide($content['field_header_caption']);
     print render($content);
   ?>
-</div>
+  </div>
 
   <div class="<?php if(empty($content['field_image'])){ print 'col-sm-5'} else {print 'col-sm-5'}?>">
     <?php print render($content['field_image']);?>
