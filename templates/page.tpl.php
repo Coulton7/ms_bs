@@ -157,7 +157,9 @@
 
 	<?php if ($page['preface']): ?>
 	<div class="preface">
+		<div class="flex_gradient padding-top padding-bottom">
 			<?php print render($page['preface']);?>
+		</div>
 	</div>
 	<?php endif; ?>
 
