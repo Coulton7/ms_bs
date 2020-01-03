@@ -62,6 +62,12 @@ a.btn-default {
   background-color: transparent;
 }
 
+.btn-primary:hover{
+  color: #ffffff;
+  background-color: #286090;
+  border-color:#204d74;
+}
+
 .navbar-default .navbar-nav.secondary>.active>a {
   background-color: #DD1E25;
 }
