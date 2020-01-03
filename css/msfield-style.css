@@ -63,7 +63,7 @@ a.btn-default {
 }
 
 .btn-primary:hover{
-  color: #ffffff;
+  color: #ffffff!important;
   background-color: #286090;
   border-color:#204d74;
 }
