@@ -245,7 +245,6 @@
 					</div>
 			</div>
 
-
 			<div class="clearfix">
 				<?php if (!empty($page['help'])): ?>
 					<?php print render($page['help']); ?>
