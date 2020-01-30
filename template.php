@@ -8,8 +8,6 @@ function ms_bs_preprocess_page(&$vars) {
     // template files called page--contenttype.tpl.php
     if (isset($vars['node']->type)) {
         $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
-    //Template files based on page titles(if works move to parent theme)
-        $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->title;
    }
 
 	drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/logoscroll.js');
